@@ -4,7 +4,7 @@
 int main()
 {
 
-	cie::pipenetwork::PipeNetwork network("C:\\Users\\eness\\Desktop\\CIE1\\MTT\\source\\pipedata.txt");
+	cie::pipenetwork::PipeNetwork network("pipedata.txt"); // Use input file path in the computer like: "C:\\Users\\.....\\source\\pipedata.txt"
 
 	std::vector<double> Fluxes = network.computeFluxes();
 	
